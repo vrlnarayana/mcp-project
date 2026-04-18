@@ -1,0 +1,6 @@
+streamlit
+anthropic
+mcp[cli]
+requests
+pytest
+pytest-asyncio

@@ -1,0 +1,3 @@
+mcp-server/.venv/
+mcp-client/.venv/
+mcp-server/jobs.db
