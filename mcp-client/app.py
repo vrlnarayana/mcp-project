@@ -9,6 +9,7 @@ st.set_page_config(page_title="Jobs AI Assistant", layout="wide")
 MCP_HEALTH_URL = "http://localhost:8000/health"
 
 
+@st.cache_data(ttl=10)
 def check_server() -> bool:
     try:
         r = requests.get(MCP_HEALTH_URL, timeout=2)
