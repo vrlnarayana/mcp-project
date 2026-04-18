@@ -56,7 +56,7 @@ with right:
     if not server_ok:
         st.warning("Start App A to see live tool calls here.")
     else:
-        st.info("Available tools discovered at session start: **list_jobs · get_job · search_jobs**")
+        st.info("Tools are discovered dynamically from the MCP server at runtime.")
 
     if "tool_log" in st.session_state:
         log = st.session_state["tool_log"]
